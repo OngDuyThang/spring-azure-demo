@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'ongduythangSpring'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_66EC3A5E36EF4C42B329BC9CCB874DF3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1818924EBCCF43CBB6CC721E06C25051 }}
           package: '*.jar'
