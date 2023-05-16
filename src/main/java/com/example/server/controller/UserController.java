@@ -10,7 +10,7 @@ import com.example.server.model.User;
 import jakarta.validation.Valid;
 
 //@CrossOrigin(origins = "https://ongduythangclient.azurewebsites.net")
-@CrossOrigin
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 public class UserController {
 
